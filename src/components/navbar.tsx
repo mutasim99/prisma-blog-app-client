@@ -1,5 +1,4 @@
 "use client";
-
 import { Menu } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -74,6 +73,10 @@ const Navbar = ({
       title: "About",
       url: "/about",
     },
+    {
+      title: 'Dashboard',
+      url: '/dashboard'
+    }
   ],
   auth = {
     login: { title: "Login", url: "#" },
